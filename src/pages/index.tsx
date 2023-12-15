@@ -18,7 +18,7 @@ const Projects = () => {
             description: "2st version of my portofolio site",
         },
         {
-            href: "",
+            href: "https://v1.irfanhariyanto.my.id",
             type: "Website",
             image: "/images/projects/web_v1.webp",
             title: "Irfan Hariyanto V1",

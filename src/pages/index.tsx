@@ -13,6 +13,13 @@ const Projects = () => {
         {
             href: "",
             type: "Website",
+            image: "/images/projects/web_v2.webp",
+            title: "Irfan Hariyanto V2",
+            description: "2st version of my portofolio site",
+        },
+        {
+            href: "",
+            type: "Website",
             image: "/images/projects/web_v1.webp",
             title: "Irfan Hariyanto V1",
             description: "1st version of my portofolio site",

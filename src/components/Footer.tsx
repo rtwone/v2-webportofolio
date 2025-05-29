@@ -44,7 +44,7 @@ export default function Footer() {
 
                     {/* Social Links */}
                     <article className="relative flex flex-row flex-wrap justify-center items-center space-x-4" data-aos="tada">
-                        <SocialLink id="instagram" href="https://www.instagram.com/irfann._x">
+                        <SocialLink id="instagram" href="https://www.instagram.com/irfvnny">
                             <svg className="mix-blend-hard-light text-black fill-current opacity-75" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     fillRule="evenodd"
@@ -78,7 +78,7 @@ export default function Footer() {
                     <div className="font-comfortaa text-sm leading-6 text-center max-w-md space-y-4 text-black">
                         <p className="font-bold">
                             Copyright © 2021 - {new Date().getFullYear()}{" "}
-                            <a href="https://instagram.com/irfann._x" rel={"noreferrer"}>
+                            <a href="https://instagram.com/irfvnny" rel={"noreferrer"}>
                                 Irfan Hariyanto
                             </a>
                             .

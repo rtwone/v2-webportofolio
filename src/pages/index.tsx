@@ -18,14 +18,14 @@ const Projects = () => {
             description: "2st version of my portofolio site",
         },
         {
-            href: "https://v1.irfanhariyanto.my.id",
+            href: "https://web1.irfanhrynto.my.id",
             type: "Website",
             image: "/images/projects/web_v1.webp",
             title: "Irfan Hariyanto V1",
             description: "1st version of my portofolio site",
         },
         {
-            href: "https://rocient.my.id/",
+            href: "https://rocient.vercel.app",
             type: "Website",
             image: "/images/projects/rocient.webp",
             title: "Class Web",

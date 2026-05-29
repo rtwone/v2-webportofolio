@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -209,6 +210,39 @@ const Contents = () => {
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Irfan Hariyanto - Portfolio</title>
+                <meta
+                    name="description"
+                    content="Portfolio Irfan Hariyanto, developer WhatsBot, designer, dan kreator digital dari Indonesia."
+                />
+                <meta
+                    name="keywords"
+                    content="Irfan Hariyanto, Irfan Hrynto, portfolio Irfan Hariyanto, WhatsBot Developer, designer Indonesia, web developer Indonesia"
+                />
+                <meta name="author" content="Irfan Hariyanto" />
+                <meta name="robots" content="index, follow" />
+
+                <meta property="og:title" content="Irfan Hariyanto - Portfolio" />
+                <meta
+                    property="og:description"
+                    content="Portfolio Irfan Hariyanto, developer WhatsBot, designer, dan kreator digital dari Indonesia."
+                />
+                <meta property="og:url" content="https://irfanhrynto.my.id" />
+                <meta property="og:type" content="website" />
+                <meta property="og:image" content="https://irfanhrynto.my.id/images/preview.png" />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Irfan Hariyanto - Portfolio" />
+                <meta
+                    name="twitter:description"
+                    content="Portfolio Irfan Hariyanto, developer WhatsBot, designer, dan kreator digital dari Indonesia."
+                />
+                <meta name="twitter:image" content="https://irfanhrynto.my.id/images/preview.png" />
+
+                <link rel="canonical" href="https://irfanhrynto.my.id" />
+            </Head>
+            
             <section id="intro" className="relative w-full bg-cover bg-center h-[800px] lg:h-[750px] bg-theme-blue-medium " style={{ backgroundImage: `url(${Images.MountainLandscape})` }}>
                 <Navigation />
 
